@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos</title>
+    <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background:#050816;
+    color:white;
+    line-height:1.7;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+
+nav{
+    background:#0d1b3d;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:15px;
+}
+
+header h1{
+    font-size:65px;
+}
+
+header p{
+    margin-top:20px;
+    font-size:22px;
+}
+
+nav{
+    background:#0d1b3d;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+nav ul li{
+    margin:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00d4ff;
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    color:#6dd5ff;
+    margin-bottom:20px;
+    font-size:35px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#111c3b;
+    padding:20px;
+    border-radius:12px;
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    background:#18366d;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+#colortext{
+    color: red;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <h1>Explorando el universo</h1>
+        <p>Descubre los misterios del cosmos, las galaxias, las estrellas y los planetas.</p>
+        <a href="#universo">
+            <button>Comenzar la aventura</button>
+        </a>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Portada</a></li>
+        <li><a href="#universo">Universo</a></li>
+        <li><a href="#galaxias">Galaxias</a></li>
+        <li><a href="#planetas">Planetas</a></li>
+        <li><a href="#cuerpos-celestes">Cuerpos Celestes</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+    </ul>
+</nav>
+
+<section id="universo">
+
+<h2>¿Qué es el Universo?</h2>
+
+<p>
+El universo es la totalidad del espacio, el tiempo, la materia y la energía.
+Se estima que tiene aproximadamente <strong>13.800 millones de años</strong>
+y contiene miles de millones de galaxias, cada una formada por millones o incluso
+billones de estrellas.
+</p>
+</section>
+
+<section id="galaxias">
+
+<h2>Galaxias</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://content.nationalgeographic.com.es/medio/2018/01/23/la-hermana-gemela-de-la-via-lactea_a90e92dd.png">
+<h3>Vía Láctea</h3>
+<p>
+Nuestra galaxia alberga el Sistema Solar y contiene más de 100 mil millones de estrellas.
+</p>
+</div>
+
+<div class="card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Messier_88_galaxy.jpg">
+<h3>Galaxias Espirales</h3>
+<p>
+Poseen brazos llenos de estrellas jóvenes y nubes de gas y polvo.
+</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKOM-qCdyeQhwd6pbO9cjyI1N1Cnhq97xm1l10h2ak06_lL4g0r5J-MZU&s=10">
+<h3>Galaxias Elípticas</h3>
+<p>
+Son galaxias antiguas con poca formación de nuevas estrellas.
+</p>
+</div>
+</div>
+</section>
+
+<section id="planetas">
+
+<h2>☀ Nuestro Sistema Solar</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>☀ Sol</h3>
+<img src="https://content.nationalgeographic.com.es/medio/2023/03/30/el-sol_5bcd9c7d_1198303044_230330121631_1280x827.jpg" alt="Sol">
+<p>
+El Sol es una estrella de tamaño mediano ubicada en el centro del Sistema Solar. Su energía hace posible la vida en la Tierra y mantiene a todos los planetas en órbita gracias a su gravedad.
+</p>
+</div>
+<div class="card">
+<img src="https://images-assets.nasa.gov/image/PIA16853/PIA16853~orig.jpg" alt="Mercurio">
+<h3>☿ Mercurio</h3>
+<p>
+Es el planeta más cercano al Sol y también el más pequeño del Sistema Solar. No posee lunas y presenta temperaturas extremadamente altas durante el día y muy bajas durante la noche.
+</p>
+</div>
+
+<div class="card">
+<h3>♀ Venus</h3>
+<img src="https://images-assets.nasa.gov/image/PIA00104/PIA00104~orig.jpg" alt="Venus">
+<p>
+Es el segundo planeta del Sistema Solar. Su atmósfera es muy densa y está compuesta principalmente por dióxido de carbono, lo que lo convierte en el planeta más caliente.
+</p>
+</div>
+
+<div class="card">
+<h3>🌍 Tierra</h3>
+<img src="https://content.nationalgeographic.com.es/medio/2022/08/01/el-planeta-tierra_19950d74_1280x1280.jpg" alt="Tierra">
+<p>
+Es el tercer planeta desde el Sol y el único conocido que alberga vida. Posee agua en estado líquido y un satélite natural: la Luna.
+</p>
+</div>
+
+<div class="card">
+<h3>♂ Marte</h3>
+<img src="https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc5/Planet-Mars-Image-source-Digital-Vision.jpg" alt="Marte">
+<p>
+Conocido como el planeta rojo debido al óxido de hierro presente en su superficie. Es uno de los principales objetivos de la exploración espacial.
+</p>
+</div>
+
+<div class="card">
+<h3>♃ Júpiter</h3>
+<img src="https://images-assets.nasa.gov/image/PIA22946/PIA22946~orig.jpg" alt="Júpiter">
+<p>
+Es el planeta más grande del Sistema Solar. Es un gigante gaseoso y posee decenas de lunas, entre ellas Ganímedes, la luna más grande del Sistema Solar.
+</p>
+</div>
+
+<div class="card">
+<h3>♄ Saturno</h3>
+<img src="https://starwalk.space/gallery/images/saturn-planet-guide/1920x1080.jpg" alt="Saturno">
+<p>
+Es famoso por sus espectaculares anillos formados por hielo y roca. También es un gigante gaseoso y cuenta con numerosas lunas.
+</p>
+</div>
+
+<div class="card">
+<h3>♅ Urano</h3>
+<img src="https://images-assets.nasa.gov/image/PIA18182/PIA18182~orig.jpg" alt="Urano">
+<p>
+Es un gigante helado que gira prácticamente de lado respecto a su órbita. Su color azul verdoso se debe a la presencia de metano en su atmósfera.
+</p>
+</div>
+
+<div class="card">
+<h3>♆ Neptuno</h3>
+<img src="https://images-assets.nasa.gov/image/PIA01492/PIA01492~orig.jpg" alt="Neptuno">
+<p>
+Es el planeta más lejano del Sol. Se caracteriza por sus fuertes vientos y su intenso color azul debido al metano presente en su atmósfera.
+</p>
+</div>
+
+</div>
+
+
+</section>
+<footer>
+    <p id="colortext">Trabajo realizado por Daniel Martinez castro</p>
+</footer>
+</body>
+</html>
